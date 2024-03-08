@@ -18,18 +18,4 @@ class FriendlyDragon extends Dragon {
     }
 }
 
-const toothless = new FriendlyDragon(
-    "Toothless",
-    "black",
-    [
-      "save the town of Burke",
-      "fly with a kid on his back",
-      "hang out with Vikings"
-    ],
-    "Hiccup"
-  );
-  console.log(toothless); toothless.hasLifeGoals();
-  console.log(toothless.helpsPeople());
-  console.log(toothless.breathesFire());
-
 module.exports = FriendlyDragon;
